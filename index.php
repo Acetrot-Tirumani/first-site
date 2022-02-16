@@ -4,7 +4,7 @@
 
 <!-- <h1>Main Section</h1> -->
 <main class="content">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 1000px;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -38,6 +38,9 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+    <div>
+        <h5>Main Content</h5>
     </div>
 </main>
 <!-- ✅ load Bootstrap JS ✅ -->

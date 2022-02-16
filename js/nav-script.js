@@ -1,9 +1,22 @@
 var navLinks=document.getElementById("navLinks");
 function hideMenu(){
-    navLinks.style.right="-200px";
+    // navLinks.style.right="-200px";
+    $('#navLinks').animate({
+        right: '-200px',
+    }, 0);
+    setTimeout(function () {
+        navLinks.classList.add('visuallyhidden');
+    }, 20)
 }
+
 function showMenu(){
-    navLinks.style.right="0";
+    // navLinks.style.right="0";
+    setTimeout(function () {
+        navLinks.classList.remove('visuallyhidden');
+        }, 20)
+    $('#navLinks').animate({
+        right: '0px',
+    }, 0);
 }
 
 const toTop=document.querySelector(".toTop");

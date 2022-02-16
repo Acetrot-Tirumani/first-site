@@ -55,28 +55,14 @@ nav .fa {
   display: none;
 }
 
-/* .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-main {
-  margin-top: 64px;
-}
-.content {
-  padding: 16px;
-} */
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-/* .sticky + .content {
-  padding-top: 27px;
-} */
-
 .carousel-control-next:focus,
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
   color: rgb(1, 93, 212);
+}
+.visuallyhidden {
+  opacity: 0;
 }
 
 @media (max-width: 700px) {
@@ -108,13 +94,13 @@ main {
 /* index page css */
 
 .carousel-inner img {
-  /* height: 26rem; */
-  opacity: 90%;
+  height: 30rem;
+  opacity: 95%;
   object-fit: cover;
 }
 
 .slider-text-1 {
-  bottom: 21rem;
+  bottom: 24rem;
 }
 .slider-text-1 h5 {
   font-size: 30px;
