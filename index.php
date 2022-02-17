@@ -14,7 +14,8 @@
             <div class="carousel-item active">
                 <img class="d-block w-100" src="images/slider-1.jpg" alt="First slide">
                 <div class="carousel-caption slider-text-1">
-                    <h5>Welcome To The World Of Web Development</h5>
+                    <p class="g-name">Hi, TIRUMANI HERE</p>
+                    <p class="g-work">-Backend Developer</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -50,4 +51,4 @@
         interval: 200000000
     })
 </script>
-<?php include('footer.php'); ?>
+<!-- <?php include('footer.php'); ?> -->
