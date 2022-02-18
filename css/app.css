@@ -8,63 +8,6 @@ body {
   background-color: white;
 }
 
-/* navbar css */
-
-/* nav {
-  display: flex;
-  padding: 1% 5%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(251 234 233);
-} */
-
-/* .logo-div img {
-  width: 120px;
-  border-radius: 30px;
-}
-.navLinks {
-  flex: 1;
-  text-align: right;
-}
-.navLinks ul {
-  margin-bottom: 0rem;
-}
-.navLinks ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 10px 15px;
-}
-.navLinks ul li a {
-  color: rgb(1, 93, 212);
-  text-decoration: none;
-  font-size: 22px;
-}
-.navLinks ul li::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  background: rgb(6, 139, 35);
-  display: block;
-  margin: auto;
-  transition: 0.8s;
-}
-.navLinks ul li:hover::after {
-  width: 100%;
-}
-nav .fa {
-  display: none;
-}
-
-.carousel-control-next:focus,
-.carousel-control-next:hover,
-.carousel-control-prev:focus,
-.carousel-control-prev:hover {
-  color: rgb(1, 93, 212);
-}
-.visuallyhidden {
-  opacity: 0;
-} */
-
 .navbar {
   padding: 1% 2%;
   background-color: rgb(251 234 233) !important;
@@ -84,7 +27,7 @@ nav .fa {
 .nav-link:hover::after {
   width: 100%;
 }
-.navbar-collapse{
+.navbar-collapse {
   padding: 1.25rem 0.625rem 0 0.625rem;
 }
 
@@ -102,13 +45,6 @@ nav .fa {
     z-index: 2;
     transition: 1s;
   }
-  /* nav .fa {
-    display: block;
-    color: red;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  } */
   .navLinks ul {
     padding: 30px;
   }
@@ -124,7 +60,7 @@ nav .fa {
   object-fit: cover;
   border-radius: 40px;
 }
-.carousel-inner img{
+.carousel-inner img {
   opacity: 95%;
   object-fit: cover;
 }
@@ -133,39 +69,71 @@ nav .fa {
 }
 
 .carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: inherit;
 }
 
 .slider-text-1 {
   bottom: 15rem;
 }
 .g-name {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: blueviolet;
   font-family: "Rowdies", cursive;
-  background: #f8f9fa0f;
+  background: #f8f9fa1c;
   margin-bottom: 0;
+}
+.g-name-2 {
+  font-size: 2.5rem;
+  color: blueviolet;
 }
 .g-work {
   font-size: 1.5rem;
   color: rgb(23 48 165 / 89%);
   font-family: "Rowdies", cursive;
-  background: #f8f9fa0f;
+  background: #f8f9fa1c;
   margin-bottom: 0;
+}
+.g-work {
+  font-size: 1.2rem;
 }
 .carousel-indicators .active {
   background-color: #015dd4;
 }
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  color: #fff;
+  right: 60%;
+  left: 0%;
+  top: 5%;
+  text-align: center;
+}
+.carousel-caption-2 {
+  right: 23%;
+  left: 0%;
+  top: 33%;
+}
+.carousel-indicators .active {
+  height: 0.8rem;
+  width: 1.4rem;
+}
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .g-name {
     font-size: 1.2rem;
   }
+  .g-name-2 {
+    font-size: 0.9rem;
+  }
   .g-work {
     font-size: 0.8rem;
+  }
+  .g-work-2 {
+    font-size: 0.6rem;
   }
   .carousel-item {
     height: 25rem;
@@ -175,25 +143,51 @@ nav .fa {
   }
   .carousel-inner img {
     height: 25rem;
-    object-fit: cover;
+    object-fit: initial;
   }
   .slider-text-1 h5 {
     font-size: 25px;
   }
-  .nav-down-border{
+  .nav-down-border {
     border-top: 1px solid #dedede;
   }
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    color: #fff;
+    right: 0%;
+    left: 0%;
+    top: 13%;
+    text-align: center;
+  }
+  .carousel-caption-2 {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    color: #fff;
+    right: 24%;
+    left: 0%;
+    top: 35%;
+    text-align: center;
+  }
 }
-@media (min-width: 701px) {
+@media only screen and (min-device-width: 768) and (max-device-width: 1023px) {
   .slider-text-1 {
     bottom: 18rem;
   }
+  .g-name-2 {
+    font-size: 1.9rem;
+  }
+  .g-work-2 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption {
+    right: 54%;
+  }
 }
 
-
-
-
 /*footer css*/
-#back{
+#back {
   background-color: #1f3dc9;
 }
