@@ -1,6 +1,6 @@
 <h1>Footer</h1>
-
+    <div id="back"><i class="fas fa-arrow-up"></i></div>
 </body>
-<script src="js/nav-script.js"></script>
+
 
 </html>

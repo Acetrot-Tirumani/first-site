@@ -120,15 +120,27 @@ nav .fa {
   padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
-.carousel-inner img {
-  height: 31rem;
+.carousel-inner {
+  object-fit: cover;
+  border-radius: 40px;
+}
+.carousel-inner img{
   opacity: 95%;
   object-fit: cover;
-  border-radius: 60px;
+}
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 
 .slider-text-1 {
-  bottom: 24rem;
+  bottom: 15rem;
 }
 .g-name {
   font-size: 2.1rem;
@@ -150,16 +162,20 @@ nav .fa {
 
 @media (max-width: 700px) {
   .g-name {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .g-work {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+  .carousel-item {
+    height: 25rem;
   }
   .slider-text-1 {
-    bottom: 21rem;
+    bottom: 16rem;
   }
   .carousel-inner img {
-    height: 30rem;
+    height: 25rem;
+    object-fit: cover;
   }
   .slider-text-1 h5 {
     font-size: 25px;
@@ -167,4 +183,17 @@ nav .fa {
   .nav-down-border{
     border-top: 1px solid #dedede;
   }
+}
+@media (min-width: 701px) {
+  .slider-text-1 {
+    bottom: 18rem;
+  }
+}
+
+
+
+
+/*footer css*/
+#back{
+  background-color: #1f3dc9;
 }

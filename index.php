@@ -4,7 +4,7 @@
 
 <!-- <h1>Main Section</h1> -->
 <main class="content">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -51,4 +51,4 @@
         interval: 200000000
     })
 </script>
-<!-- <?php include('footer.php'); ?> -->
+<?php include('footer.php'); ?>
