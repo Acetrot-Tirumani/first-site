@@ -122,6 +122,15 @@ body {
   width: 1.4rem;
 }
 
+.round-border-blue {
+  border-color: #015dd4 !important;
+}
+
+@media (min-width: 992px) {
+  .bt-large-0 {
+    border-bottom: 0 !important;
+  }
+}
 @media (max-width: 768px) {
   .g-name {
     font-size: 1.2rem;
@@ -190,4 +199,22 @@ body {
 /*footer css*/
 #back {
   background-color: #1f3dc9;
+}
+.foot-link {
+  color: rgb(1, 93, 212) !important;
+  text-decoration: none !important;
+}
+.foot-link:hover {
+  color: rgb(49, 182, 71) !important;
+  text-decoration: none !important;
+}
+.footer-header {
+  color: rgb(1, 93, 212) !important;
+}
+.p-footer {
+  margin-bottom: 0.5rem;
+}
+.footer-logo {
+  width: auto;
+  height: 4rem;
 }
