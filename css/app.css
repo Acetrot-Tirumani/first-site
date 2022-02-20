@@ -198,18 +198,20 @@ body {
 
 /*footer css*/
 #back {
-  background-color: #1f3dc9;
+  /* background-color: #1f3dc9; */
+  background-image: linear-gradient(to bottom, #163aeb, #007b00);
 }
 .foot-link {
-  color: rgb(1, 93, 212) !important;
-  text-decoration: none !important;
+  color: rgb(1, 93, 212);
+  text-decoration: none;
 }
 .foot-link:hover {
-  color: rgb(49, 182, 71) !important;
-  text-decoration: none !important;
+  color: rgb(49, 182, 71);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(1, 93, 212);
 }
 .footer-header {
-  color: rgb(1, 93, 212) !important;
+  color: rgb(1, 93, 212);
 }
 .p-footer {
   margin-bottom: 0.5rem;
@@ -217,4 +219,7 @@ body {
 .footer-logo {
   width: auto;
   height: 4rem;
+}
+.footer-header-line {
+  background-color: rgb(49, 182, 71);
 }

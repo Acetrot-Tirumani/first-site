@@ -54,7 +54,7 @@
         </a>
     </div>
 
-    <div style="background-color: rgb(1 93 212 / 86%);">
+    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);">
         <div class="container">
             <div class="row py-3 d-flex align-items-center">
                 <div class="col-md-12 col-lg-12 text-center text-lg-center text-md-left mb-4 mb-md-0">
@@ -66,23 +66,34 @@
 
     <!-- skills section -->
     <div class="container mt-lg-70 mt-40 mb-40">
-        <div class="row text-center">
+        <div class="row text-center justify-content-around">
             <div class="col-lg-4 mt-20 mb-20 border-bottom bt-large-0">
                 <img src="\images\web-development.png" alt="" style="object-fit: contain;" class="rounded-circle border-dark round-border-blue" width="140" height="140">
                 <h2 class="mt-10 mb-10 footer-header">Web Development</h2>
-                <p>Web development is a way to make people aware of the services and/or products you are offering, understand why your products are relevant and even necessary for them to buy or use, and see which of your company's qualities set it apart from competitors</p>
+                <p>Web development is a way to make people aware of the services and/or products you are offering, understand why your products are relevant and even necessary for them to buy or use, and see which of your company's qualities set it apart from competitors.</p>
             </div>
             <div class="col-lg-4 mt-20 mb-20 border-bottom bt-large-0">
                 <img src="\images\innovation.png" alt="" class="bd-placeholder-img rounded-circle border-dark round-border-blue" style="object-fit: contain;" style="object-fit: contain;" width="140" height="140">
                 <h2 class="mt-10 mb-10 footer-header">Innovation</h2>
                 <p>Successful innovation allows you to add value to your business so that you can increase your profits—if you don't innovate well, your business will plateau. Innovation helps you stay ahead of the competition.</p>
             </div>
-            <div class="col-lg-4 mt-20 mb-20 bt-large-0">
+            <div class="col-lg-4 mt-20 mb-20 border-bottom bt-large-0">
                 <img src="\images\database.png" alt="" class="bd-placeholder-img rounded-circle border-dark round-border-blue" style="object-fit: contain;" width="140" height="140">
                 <h2 class="mt-10 mb-10 footer-header">Database</h2>
                 <p>Proper database management systems help increase organizational accessibility to data, which in turn helps the end users share the data quickly and effectively across the organization.</p>
             </div>
-
+        </div>
+        <div class="row text-center justify-content-around">
+            <div class="col-lg-4 mt-20 mb-20 border-bottom bt-large-0">
+                <img src="\images\api-integration.png" alt="" style="object-fit: contain;" class="rounded-circle border-dark round-border-blue" width="140" height="140">
+                <h2 class="mt-10 mb-10 footer-header">API Integration</h2>
+                <p>APIs are a great platform for quick business innovations as you can use them for creating solutions to your business problems. You can use API technology to create and develop innovative models for your business. Application economics emerged from API integration, which means applications can be developed quickly, better, and at a lower cost.</p>
+            </div>
+            <div class="col-lg-4 mt-20 mb-20 bt-large-0">
+                <img src="\images\payment-gateway-1.png" alt="" class="bd-placeholder-img rounded-circle border-dark round-border-blue" style="object-fit: contain;" style="object-fit: contain;" width="140" height="140">
+                <h2 class="mt-10 mb-10 footer-header">Payment Gateway</h2>
+                <p>A payment gateway is an e-commerce service that authorizes credit card or direct payments processing for online businesses, bricks and clicks, or traditional brick and mortar sellers. It is essentially the virtual equivalent of the point-of-sale terminals at physical stores.</p>
+            </div>
         </div>
     </div>
 </main>

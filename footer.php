@@ -2,9 +2,9 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: rgb(1 93 212 / 86%);">
+    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);">
         <div class="container">
-            <div class="row py-4 d-flex align-items-center">
+            <div class="row py-3 d-flex align-items-center">
                 <div class="col-md-12 col-lg-12 text-center text-lg-center text-md-left mb-4 mb-md-0">
                     <!-- <h6 class="mb-0 text-white font-10">Get connected with us on social networks!</h6> -->
                     <h6 class="mb-0 text-white font-10">Get connected with us!</h6>
@@ -23,7 +23,7 @@
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold footer-header">Links</h6>
-                <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto footer-header-line" style="width: 60px;">
                 <p class="p-footer">
                     <a href="#!" class="foot-link">Home</a>
                 </p>
@@ -39,8 +39,8 @@
 
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
-                <h6 class="text-uppercase font-weight-bold footer-header">Contact</h6>
-                <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <h6 class="text-uppercase font-weight-bold footer-header ">Contact</h6>
+                <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto footer-header-line" style="width: 60px;">
                 <p>
                     <i class="fas fa-home mr-3"></i> Mumbai-78, INDIA
                 </p>
@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> Dev Tiru</a>
+        <a href="/" class="foot-link"> Dev Tiru</a>
     </div>
 </footer>
 <!-- Footer -->
