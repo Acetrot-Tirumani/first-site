@@ -29,6 +29,8 @@
 
     <!-- go to top js -->
     <script src="js/script.min.js"></script>
+    <!-- lazysizes -->
+    <script src="js/lazysizes.js"></script>
 
 
 </head>

@@ -13,7 +13,7 @@
     <div class="container mt-60 mb-40">
         <div class="row featurette align-items-center">
             <div class="col-md-5 mb-20 order-md-2">
-                <img src="images/programmer-1.png" alt="" height="400" class="img-fluid mx-auto">
+                <img data-src="images/programmer-1.png" alt="" height="400" class="img-fluid mx-auto lazyload">
             </div>
             <div class="col-md-7 mb-20 order-md-1">
                 <h2 class="featurette-heading"><span class="text-muted">Hi, myself </span>
@@ -25,7 +25,7 @@
         <!-- <hr class="featurette-divider"> -->
     </div>
 
-    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);">
+    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);  border-radius: 0px 0px 30px 30px;">
         <div class="container">
             <div class="row py-3 d-flex align-items-center">
                 <div class="col-md-12 col-lg-12 text-center text-lg-center text-md-left mb-4 mb-md-0">
@@ -37,25 +37,25 @@
     <section class="campus">
         <div class="row custom-flex-column">
             <div class="campus-col">
-                <img src="images/html.png" alt="Interstellar">
+                <img data-src="images/html.png" class="lazyload" alt="Interstellar">
                 <div class="layer">
                     <h3>HTML</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/css.png" alt="Interstellar">
+                <img data-src="images/css.png" class="lazyload" alt="Interstellar">
                 <div class="layer">
                     <h3>Basic CSS, Bootstrap</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/java-script.png" alt="Interstellar">
+                <img data-src="images/java-script.png" class="lazyload" alt="Interstellar">
                 <div class="layer">
                     <h3>Ajax, jQuery, Axios</h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="images/php.png" alt="Interstellar">
+                <img data-src="images/php.png" class="lazyload" alt="Interstellar">
                 <div class="layer">
                     <h3>Core Php, Laravel</h3>
                 </div>

@@ -2,11 +2,10 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);">
+    <div style="background-image: linear-gradient(to right, #163aeb, #007b00);  border-radius: 0px 0px 30px 30px;">
         <div class="container">
             <div class="row py-3 d-flex align-items-center">
                 <div class="col-md-12 col-lg-12 text-center text-lg-center text-md-left mb-4 mb-md-0">
-                    <!-- <h6 class="mb-0 text-white font-10">Get connected with us on social networks!</h6> -->
                     <h6 class="mb-0 text-white font-10">Get Connected!</h6>
                 </div>
             </div>
@@ -16,7 +15,7 @@
     <div class="container text-center text-md-left mt-4">
         <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <img src="\images\logo-1.png" alt="" class="footer-logo">
+                <img data-src="\images\logo-1.png" alt="" class="footer-logo lazyload">
                 <!-- <h6 class="text-uppercase font-weight-bold footer-header">Dev Tiru</h6> -->
                 <p>Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.</p>
             </div>
