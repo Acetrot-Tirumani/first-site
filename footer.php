@@ -7,7 +7,7 @@
             <div class="row py-3 d-flex align-items-center">
                 <div class="col-md-12 col-lg-12 text-center text-lg-center text-md-left mb-4 mb-md-0">
                     <!-- <h6 class="mb-0 text-white font-10">Get connected with us on social networks!</h6> -->
-                    <h6 class="mb-0 text-white font-10">Get connected with us!</h6>
+                    <h6 class="mb-0 text-white font-10">Get Connected!</h6>
                 </div>
             </div>
         </div>
