@@ -302,3 +302,16 @@ body {
 .img-fit-contain {
   object-fit: contain;
 }
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #83c083;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.sign-in-btn {
+  background-color: #1661d3;
+}
+.sign-in-btn:hover:active:focus {
+  background-color: #3fbe41;
+}
