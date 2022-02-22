@@ -293,3 +293,12 @@ body {
     flex-direction: column;
   }
 }
+
+/* project page */
+.shadow-sm:hover {
+  box-shadow: 0 0 20px 0px #83c083;
+  cursor: pointer;
+}
+.img-fit-contain {
+  object-fit: contain;
+}

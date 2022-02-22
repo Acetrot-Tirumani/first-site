@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+ <title>New Year Countdown</title> 
+</head>
+
+<body>
+
+ <h1>Special Countdown</h1>
+
+ <div id="countdown" class="countdown">
+
+  <div class="time">
+   <h2 id="days"></h2>
+   <small>Days</small>
+  </div>
+
+  <div class="time">
+   <h2 id="hours"></h2>
+   <small>Hours</small>
+  </div>
+
+  <div class="time">
+   <h2 id="minutes"></h2>
+   <small>Minutes</small>
+  </div>
+
+  <div class="time">
+   <h2 id="seconds"></h2>
+   <small>Seconds</small>
+  </div>
+
+ </div>
+
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 60px;
+	margin: -150px 0 40px;
+}
+
+.countdown {
+	display: flex;
+	transform: scale(2);
+}
+
+.time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+}
+
+.time h2 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1;
+	margin: 0 0 5px;
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 45px;
+	}
+	.time {
+		margin: 5px;
+	}
+	.time h2 {
+		font-size: 12px;
+	}
+	.time small {
+		font-size: 10px;
+	}
+}
+</style>
+<script>
+    const days = document.getElementById('days');
+const hours = document.getElementById('hours');
+const minutes = document.getElementById('minutes');
+const seconds = document.getElementById('seconds');
+
+
+const newYearTime = new Date(`February 22 2022 22:17:02`);
+
+// Update countdown time
+function updateCountdown() {
+	const currentTime = new Date();
+	const diff = newYearTime - currentTime;
+
+	const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+	const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+	const m = Math.floor(diff / 1000 / 60) % 60;
+	const s = Math.floor(diff / 1000) % 60;
+	console.log(s)
+	if(s>=0){
+		days.innerHTML = d;
+		hours.innerHTML = h < 10 ? '0' + h : h;
+		minutes.innerHTML = m < 10 ? '0' + m : m;
+		seconds.innerHTML = s < 10 ? '0' + s : s;
+	}
+	else{
+		days.innerHTML = 0;
+		hours.innerHTML = 22;
+		minutes.innerHTML = 22;
+		seconds.innerHTML = 2;
+
+	}
+}
+
+// setInterval(updateCountdown, 1000);
+</script>
+</html>
