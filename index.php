@@ -7,11 +7,11 @@
     <!-- carousel section -->
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active cursor-pointer"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="cursor-pointer"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="cursor-pointer"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="cursor-pointer"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4" class="cursor-pointer"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">

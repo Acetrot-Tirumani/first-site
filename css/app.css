@@ -126,6 +126,10 @@ body {
   border-color: #015dd4 !important;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .bt-large-0 {
     border-bottom: 0 !important;
@@ -299,6 +303,9 @@ body {
   box-shadow: 0 0 20px 0px #83c083;
   cursor: pointer;
 }
+.shadow-sm {
+  border: 3px solid rgba(0, 0, 0, 0.125);
+}
 .img-fit-contain {
   object-fit: contain;
 }
@@ -314,4 +321,7 @@ body {
 }
 .sign-in-btn:hover:active:focus {
   background-color: #3fbe41;
+}
+.border-radius-1 {
+  border-radius: 1rem;
 }

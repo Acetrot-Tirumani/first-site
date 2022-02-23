@@ -13,35 +13,35 @@
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/okidos-logo.png" class="img-fit-contain" width="100%" height="225" alt="Okidos">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/okidos-logo.png" class="img-fit-contain" width="100%" height="200" alt="Okidos">
                 </div>
             </div>
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/skyline-logo.png" class="img-fit-contain" width="100%" height="225" alt="">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/skyline-logo.png" class="img-fit-contain" width="100%" height="200" alt="">
                 </div>
             </div>
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/spaces-logo.png" class="img-fit-contain" width="100%" height="225" alt="">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/spaces-logo.png" class="img-fit-contain" width="100%" height="200" alt="">
                 </div>
             </div>
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/nmmt-logo.png" class="img-fit-contain" width="100%" height="225" alt="">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/nmmt-logo.png" class="img-fit-contain" width="100%" height="200" alt="">
                 </div>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/covid-relief-logo.png" class="img-fit-contain" width="100%" height="225" alt="">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/covid-relief-logo.png" class="img-fit-contain" width="100%" height="200" alt="">
                 </div>
             </div>
             <div class="col-md-3 mb-20">
-                <div class="card shadow-sm">
-                    <img src="images/basta-logo.png" class="img-fit-contain" width="100%" height="225" alt="">
+                <div class="card shadow-sm border-radius-1">
+                    <img src="images/basta-logo.png" class="img-fit-contain" width="100%" height="200" alt="">
                 </div>
             </div>
         </div>
