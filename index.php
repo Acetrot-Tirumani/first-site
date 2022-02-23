@@ -40,7 +40,7 @@
                 <img class="d-block w-100 lazyload" data-src="images/contact-slider.png" alt="Third slide">
                 <div class="carousel-caption carousel-caption-2 slider-text-3">
                     <p class="g-name-2 font-bold">Contact Now</p>
-                    <a href="contact.php" class="btn btn-outline-success g-work g-work-2">Contact</a>
+                    <a href="/contact" class="btn btn-outline-success g-work g-work-2">Contact</a>
                 </div>
             </div>
         </div>

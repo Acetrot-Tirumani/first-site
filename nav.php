@@ -7,16 +7,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto ">
       <li class="nav-item active">
-        <a class="nav-link h5 pl-3" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link h5 pl-3" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item nav-down-border">
-        <a class="nav-link h5 pl-3" href="about.php">About</a>
+        <a class="nav-link h5 pl-3" href="/about">About</a>
       </li>
       <li class="nav-item nav-down-border">
-        <a class="nav-link h5 pl-3" href="projects.php">Projects</a>
+        <a class="nav-link h5 pl-3" href="/projects">Projects</a>
       </li>
       <li class="nav-item nav-down-border">
-        <a class="nav-link h5 pl-3" href="contact.php">Contact</a>
+        <a class="nav-link h5 pl-3" href="/contact">Contact</a>
       </li>
     </ul>
   </div>

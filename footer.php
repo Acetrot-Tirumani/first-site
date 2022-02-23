@@ -24,16 +24,16 @@
                 <h6 class="text-uppercase font-weight-bold footer-header">Links</h6>
                 <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto footer-header-line" style="width: 60px;">
                 <p class="p-footer">
-                    <a href="#!" class="foot-link">Home</a>
+                    <a href="/" class="foot-link">Home</a>
                 </p>
                 <p class="p-footer">
-                    <a href="#!" class="foot-link">About</a>
+                    <a href="/about" class="foot-link">About</a>
                 </p>
                 <p class="p-footer">
-                    <a href="#!" class="foot-link">Projects</a>
+                    <a href="/projects" class="foot-link">Projects</a>
                 </p>
                 <p class="p-footer">
-                    <a href="#!" class="foot-link">Contact</a>
+                    <a href="/contact" class="foot-link">Contact</a>
                 </p>
 
             </div>
