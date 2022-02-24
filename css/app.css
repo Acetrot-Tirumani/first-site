@@ -204,6 +204,7 @@ body {
 #back {
   /* background-color: #1f3dc9; */
   background-image: linear-gradient(to bottom, #163aeb, #007b00);
+  display: inline-block;
 }
 .foot-link {
   color: rgb(1, 93, 212);
