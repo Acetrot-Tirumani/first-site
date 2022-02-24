@@ -15,29 +15,29 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 lazyload" data-src="images/slider-1.png" alt="First slide">
+                <img class="d-block w-100" src="images/slider-1.png" alt="First slide">
                 <div class="carousel-caption slider-text-1">
                     <p class="g-name font-bold">Hi, TIRUMANI HERE</p>
                     <p class="g-work">-Backend Developer</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 lazyload" data-src="images/slider-2.png" alt="Second slide">
+                <img class="d-block w-100" src="images/slider-2.png" alt="Second slide">
                 <div class="carousel-caption slider-text-2">
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 lazyload" data-src="images/back-end-2.png" alt="Second slide">
+                <img class="d-block w-100" src="images/back-end-2.png" alt="Second slide">
                 <div class="carousel-caption slider-text-2">
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 lazyload" data-src="images/back-end-4.png" alt="Second slide">
+                <img class="d-block w-100" src="images/back-end-4.png" alt="Second slide">
                 <div class="carousel-caption slider-text-2">
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 lazyload" data-src="images/contact-slider.png" alt="Third slide">
+                <img class="d-block w-100" src="images/contact-slider.png" alt="Third slide">
                 <div class="carousel-caption carousel-caption-2 slider-text-3">
                     <p class="g-name-2 font-bold">Contact Now</p>
                     <a href="/contact" class="btn btn-outline-success g-work g-work-2">Contact</a>
