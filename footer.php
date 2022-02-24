@@ -29,9 +29,9 @@
                 <p class="p-footer">
                     <a href="/about" class="foot-link">About</a>
                 </p>
-                <p class="p-footer">
-                    <a href="/projects" class="foot-link">Projects</a>
-                </p>
+                <!-- <p class="p-footer">
+                    <a href="/" class="foot-link">Projects</a>
+                </p> -->
                 <p class="p-footer">
                     <a href="/contact" class="foot-link">Contact</a>
                 </p>
