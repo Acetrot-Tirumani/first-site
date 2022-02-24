@@ -13,7 +13,7 @@
     <div class="container mt-60 mb-40">
         <div class="row featurette align-items-center">
             <div class="col-md-5 mb-20 order-md-2">
-                <img data-src="images/programmer-1.png" alt="" height="400" class="img-fluid mx-auto lazyload">
+                <img src="images/programmer-1.png" alt="" height="400" class="img-fluid mx-auto">
             </div>
             <div class="col-md-7 mb-20 order-md-1">
                 <h2 class="featurette-heading"><span class="text-muted">Hi, myself </span>
