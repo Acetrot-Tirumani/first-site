@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . '/RequestFile.php';
 require_once(__DIR__ . '/RequestMethod.php');
 
 class Request
@@ -33,16 +32,6 @@ class Request
     public static function has(string $key)
     {
         return array_key_exists($key, $_REQUEST);
-    }
-    public static function hasFile(string $key)
-    {
-        return array_key_exists($key, $_FILES);
-    }
-    public static function file(string $key): RequestFile
-    {
-        return new RequestFile($key);
-        // return $_FILES[$key] ?? null;
-
     }
 
     public static function via(): RequestMethod
@@ -79,8 +68,6 @@ class Request
                 $errors[$key] = 'The ' . $key . ' must be a number.';
                 continue;
             }
-            // response(isset($value['minlen']));
-            // exit;
             if (isset($value['minlen']) && strlen($v) < $value['minlen']) {
                 $errors[$key] = 'The ' . $key . ' must be at least ' . $value['minlen'] . '.';
                 continue;
@@ -89,30 +76,7 @@ class Request
                 $errors[$key] = 'The ' . $key . ' may not be greater than ' . $value['maxlen'] . '.';
                 continue;
             }
-            if (in_array('file', $value) && !file_exists($_FILES[$v])) {
-                $errors[$key] = 'The ' . $key . ' must be a file.';
-                continue;
-            }
-            if (isset($value['mimes']) && !in_array(explode('/', mime_content_type($_FILES[$v]['tmp_name'][1])), $value['mimes'])) {
-                $errors[$key] = 'The ' . $key . ' must be a file type of  ' . $value['mimes'] . '.';
-                continue;
-            }
         }
         return $errors;
-    }
-
-    public static function validateCaptcha($key)
-    {
-        if (self::has('g-recaptcha-response')) {
-            $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $key . '&response=' . self::get('g-recaptcha-response'));
-            $response = json_decode($response);
-            return $response->success;
-        }
-        return false;
-    }
-
-    public static function isAjax()
-    {
-        return IS_AJAX;
     }
 }

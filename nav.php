@@ -12,9 +12,9 @@
       <li class="nav-item nav-down-border">
         <a class="nav-link h5 pl-3" href="/about">About</a>
       </li>
-      <li class="nav-item nav-down-border">
-        <a class="nav-link h5 pl-3" href="/projects">Projects</a>
-      </li>
+      <!-- <li class="nav-item nav-down-border">
+        <a class="nav-link h5 pl-3" href="/">Projects</a>
+      </li> -->
       <li class="nav-item nav-down-border">
         <a class="nav-link h5 pl-3" href="/contact">Contact</a>
       </li>

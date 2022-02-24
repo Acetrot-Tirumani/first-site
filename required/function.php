@@ -1,6 +1,5 @@
 <?php
 
-define('IS_AJAX', (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest'));
 
 function is_email(string $str)
 {
