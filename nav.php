@@ -16,6 +16,9 @@
         <a class="nav-link h5 pl-3" href="/">Projects</a>
       </li> -->
       <li class="nav-item nav-down-border">
+        <a class="nav-link h5 pl-3" href="/news">News</a>
+      </li>
+      <li class="nav-item nav-down-border">
         <a class="nav-link h5 pl-3" href="/contact">Contact</a>
       </li>
     </ul>
