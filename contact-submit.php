@@ -16,7 +16,12 @@ if (count($validate) > 0) {
 }
 // verify captcha
 $gcaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
-$gcaptchaSecretKey = '6LctUZkeAAAAAB3dHz1KAZln7BBnUpcS-KhbeSZq';
+
+// live websitekey
+$gcaptchaSecretKey = '6Le1x5seAAAAAD9S7VDs3YR6Cl78N-3jIu3W9p9T';
+
+// local website key
+// $gcaptchaSecretKey = '6LctUZkeAAAAAB3dHz1KAZln7BBnUpcS-KhbeSZq';
 
 $set_recaptcha_response = $_POST['recaptcha_response'];
 $get_recaptcha_response = file_get_contents($gcaptchaUrl . '?secret=' . $gcaptchaSecretKey . '&response=' . $set_recaptcha_response);
