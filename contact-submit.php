@@ -30,9 +30,9 @@ if ($get_recaptcha_response->success == true && $get_recaptcha_response->score >
     $msg = "Name :" . $name . "<br>Email :" . $email . '<br>Message : ' . $message;
 
     // To send HTML mail, the Content-type header must be set
-    $headers = "Content-type: text/html\r\n";
-    $headers .= 'From:  ' . $name . ' <' . $email . '>' . " \r\n" .
-        'Reply-To: ' .  $email . "\r\n";
+    // $headers = "Content-type: text/html\r\n";
+    // $headers .= 'From:  ' . $name . ' <' . $email . '>' . " \r\n" .
+    //     'Reply-To: ' .  $email . "\r\n";
 
     include('mail.php');
     return Redirect::to()->back();
